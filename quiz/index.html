@@ -1,24 +1,31 @@
 <html>
     <head>
         <title>
-            Quiz
+            A Nightmare on Elm street Quiz
         </title>
     </head>
+    <link rel="stylesheet" href="css/index.css">
     <body>
-        <div class="qPanel">
-            <div id="question">
 
+        <div class="page_width">
+            <div><h1>A Nightmare on Elm street Quiz</h1></div>
+            <div class="qPanel">
+                <div id="question" class="question">
+                </div>
+                <div class="answer"><input type="radio" id="opt1" name="options">
+                    <span id="optt1"></span>
+                </div>
+                <div class="answer"><input type="radio" id="opt2" name="options">
+                    <span id="optt2"></span>
+                </div>
+                <div class="answer"><input type="radio" id="opt3" name="options">
+                    <span id="optt3"></span>
+                </div>
+                <button onclick="checkAnswer()">Next question</button>
             </div>
-            <div><input type="radio" id="opt1" name="options">
-                <span id="optt1"></span>
-            </div>
-            <div><input type="radio" id="opt2" name="options">
-                <span id="optt2"></span>
-            </div>
-            <div><input type="radio" id="opt3" name="options">
-                <span id="optt3"></span>
-            </div>
-            <button onclick="checkAnswer()">Next</button>
         </div>
+
+        <script src="js/data.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>

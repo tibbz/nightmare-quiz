@@ -1,0 +1,30 @@
+.page_width {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qPanel {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25%;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.answer {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
